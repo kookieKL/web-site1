@@ -13,14 +13,9 @@ showcase; the backend is an optional stub for future work.
 - **lucide-react** — icons
 - **FastAPI** — minimal backend stub (not connected to the UI yet)
 
-## Getting started
 
-```bash
-npm install
-npm run dev
-```
 
-Open http://localhost:3000.
+Open http://localhost:№№№№
 
 ## Project structure
 
@@ -43,31 +38,4 @@ lib/
 backend/             # FastAPI stub (optional)
 ```
 
-## Rebranding
 
-Change the brand name, tagline, hero copy, and social links in a single file:
-[`data/brand.ts`](data/brand.ts). Everything (header logo, hero, footer, page
-title) updates automatically.
-
-## Editing products
-
-Products live in [`data/products.ts`](data/products.ts). Each product has a
-category (`clothing` / `footwear`), a collection, price, images, colors, and
-sizes. Replace the Unsplash image URLs with your own assets when ready.
-
-## Optional backend stub
-
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload   # http://localhost:8000
-```
-
-Exposes `GET /health` and a placeholder `GET /api/products`. The frontend does
-not call it yet — wire it up when you add a real cart/checkout.
-
-## Notes
-
-- The "Add to Bag" buttons are demo-only and show a toast; there is no cart or
-  checkout integration.
-- Animations respect `prefers-reduced-motion`.
