@@ -15,7 +15,7 @@ showcase; the backend is an optional stub for future work.
 
 
 
-Open http://localhost:№№№№
+Open http://localhost:3000
 
 ## Project structure
 
